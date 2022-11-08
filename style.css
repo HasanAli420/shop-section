@@ -1,0 +1,104 @@
+/* ==== common styling starts ==== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+body{
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.p-style{
+    color: #83879A;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.p-size{
+    font-size: 17px;
+}
+
+.m-t{
+    margin-top: 30px;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.btn{
+    display: inline-block;
+    border: 1px solid #8646EE;
+    color: #8646EE;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* ==== common styling ends ==== */
+
+/* ==== shop section starts ==== */
+
+#shop{
+    background: #f5f5f5;
+    padding: 3% 2%;
+    min-height: 100vh;
+}
+
+.shop .container{
+    background: #fff;
+    padding: 0 20%;
+    min-height: 100vh;
+    border-radius: 10px;
+}
+
+.shop .container .shop-title h3{
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 30px;
+    color: #162849;
+    font-size: 25px;
+}
+
+.shop .box-container .box{
+    flex: 1 1 338px;
+    text-align: center;
+    background:#F8F8F8;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.shop .box-container .box h4{
+    color:#162849;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.shop .box-container .box h5{
+    font-size: 20px;
+    color: #83879A;
+    margin: 20px 0;
+}
+
+.shop .box-container .box h5 span{
+    color: #8646EE;
+    font-size: 55px;
+    margin-right: 10px;
+}
+
+/* ==== shop section ends ==== */
